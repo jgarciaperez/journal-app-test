@@ -6,7 +6,7 @@ export const LoginScreen = () => {
     <div>
       <h3 className="auth__title">Login</h3>
       <form>
-        <input type="text" placeholder="Email" name="email" autoComplete="off" className="auth__input"/>
+        <input type="text" placeholder="Email" name="email" autoComplete="off" className="auth__input" />
         <input type="password" placeholder="Password" name="password" autoComplete="off" className="auth__input" />
         <button type="submit" className="btn btn-primary btn-block">Access</button>
         <hr />
@@ -25,7 +25,7 @@ export const LoginScreen = () => {
             </p>
           </div>
         </div>
-        <Link to="/auth/register">Create new account</Link>
+        <Link to="/auth/register" className="link">Create new account</Link>
       </form>
     </div>
   );
